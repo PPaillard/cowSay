@@ -1,9 +1,9 @@
 const myInfos =  {
     nom : 'Pierre',
-    campus : 'Lyon',
-    ditBonjour : function(){
-        return `Bonjour, mon nom est ${this.nom} et je suis de ${this.campus}`;
+    camp : 'Lyon',
+    ditSalut: function(){
+        return `Bonjour, mon  est ${this.nom} et je  de ${this.camp}`;
     }
 }
 
-module.exports = myInfos.ditBonjour;
+module.exports = myInfos.ditSalut;
